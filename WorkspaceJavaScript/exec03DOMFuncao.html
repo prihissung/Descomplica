@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio DOM 002</title>
+</head>
+<body>
+    <button onclick="confirma()" >Confirmar Presença</button>
+    
+</body>
+<script>
+    function confirma(){
+        let confirmacao = confirm("Ficamos felizes com sua presença")
+        if(confirmacao){
+            alert("Voce nao se arrependera")
+        }else{
+            alert("Sentiremos sua falta")
+        }
+    }
+</script>
+</html>
